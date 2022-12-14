@@ -2,6 +2,10 @@
 A Movieclip object in Actionscript 2.0 used for drawing oldskool Bitmap fonts.
 example 
 
+
+## Usage
+- put Bitmapfont.as in your project file
+- create a new Movieclip from your library and link it with the Bitmapfont class
 ```actionscript
 var font:BitmapData = BitmapData.loadBitmap("bmp");
 var charwidth = 32;
