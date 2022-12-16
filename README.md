@@ -1,11 +1,11 @@
 # Flash-Bitmapfont
-A Movieclip object in Actionscript 2.0 used for drawing oldskool Bitmap fonts.
-
+A Movieclip object in Actionscript 2.0 used for drawing Bitmap fonts.
 
 ## Usage
 - put Bitmapfont.as in your project folder
 - create an empty Movieclip from your library and link it with the Bitmapfont class
-- import a bitmap into your library containing the font. **You can find a collection of oldskool Amiga bitmaps [here](https://github.com/ianhan/BitmapFonts)**
+- import a bitmap into your library containing the font. **You can find a collection of oldskool Amiga bitmap fonts [here](https://github.com/ianhan/BitmapFonts)**
+
 ```actionscript
 var font:BitmapData = BitmapData.loadBitmap("bmp"); // load the bitmap
 var charwidth = 32; // width of each character
