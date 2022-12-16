@@ -1,4 +1,4 @@
-﻿import flash.display.BitmapData;
+import flash.display.BitmapData;
 import flash.geom.Point;
 import flash.geom.Rectangle;
 class Bitmapfont extends MovieClip {
@@ -30,9 +30,8 @@ class Bitmapfont extends MovieClip {
 	  words = outputtext.split(' ');
 	for (var i=0; i<fontchars.length; i++) {
 	letterindices[fontchars.charAt(i)] = i;
-	initchars();
 	}
-		
+		initchars();
   }
 	public function Format(rect:Rectangle)
 	{
@@ -53,8 +52,8 @@ class Bitmapfont extends MovieClip {
 		}
 			
 		for (var j=0; j<words[i].length; j++) {
-			this.getInstanceAtDepth(a)._x = cursor.x;
-			this.getInstanceAtDepth(a)._y = cursor.y*(charheight+charvertspace);
+			this.getInstanceAtDepth(a)._x = rect.x + cursor.x;
+			this.getInstanceAtDepth(a)._y = rect.y + cursor.y*(charheight+charvertspace);
 			//trace (cursor.y);
 			cursor.x += (charwidth+charhorizspace);
 			a++;
