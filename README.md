@@ -4,8 +4,8 @@ example
 
 
 ## Usage
-- put Bitmapfont.as in your project file
-- create a new Movieclip from your library and link it with the Bitmapfont class
+- put Bitmapfont.as in your project folder
+- create an empty Movieclip from your library and link it with the Bitmapfont class
 ```actionscript
 var font:BitmapData = BitmapData.loadBitmap("bmp");
 var charwidth = 32;
