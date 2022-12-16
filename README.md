@@ -13,7 +13,7 @@ var charheight = 33; // height of each character
 var fontchars = "abcdefghijklmnopqrstuvwxyz!"; // each character contained in the font in order 
 var outputtext = "hello! this is a bitmap test"; // the text that is drawn from the font
 var charhorizspace = 3; // horizontal space between chars
-var charvertspace = 14; // vertical space between lines (if you )
+var charvertspace = 14; // vertical space between lines (if your text wraps)
 var formattingrect = new Rectangle(0, 0, 300, Stage.height) // the rectangle bounds by which to position and wrap the text, if width = 0 then it wont wrap.
 
 var target = this.attachMovie("clip1","clip",0);
