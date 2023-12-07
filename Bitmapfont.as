@@ -88,7 +88,8 @@ class Bitmapfont extends MovieClip {
     }
     public
 
-    function Format(rect: Rectangle) {
+    function Format(rect: Rectangle = this.rect) {
+this.rect = rect;
         mask = this.createEmptyMovieClip("mask", this.getNextHighestDepth());
         var a = 0;
         var line = 0;
