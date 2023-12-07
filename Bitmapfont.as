@@ -41,7 +41,7 @@ class Bitmapfont extends MovieClip {
 
     public
 
-    function Display(font: BitmapData, charwidth, charheight, fontchars, outputtext, charhorizspace, charvertspace) {
+    function Display(font: BitmapData = this.font, charwidth = this.charwidth, charheight = this.charheight, fontchars = this.fontchars, outputtext = this.outputtext, charhorizspace = this.charhorizspace, charvertspace = this.charvertspacr) {
         this.font = font;
         this.charwidth = charwidth;
         this.charheight = charheight;
